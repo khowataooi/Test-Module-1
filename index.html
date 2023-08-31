@@ -88,16 +88,16 @@
       //       this.height = height;
       //       this.color = color;
       //     }
-      //     render() {
-      //       const c = document.getElementById("myCanvas");
-      //       const ctx = c.getContext("2d");
+      //     render(canvas) {
+      //       const ctx = canvas.getContext("2d");
       //       ctx.beginPath();
       //       ctx.strokeStyle = this.color;
       //       ctx.strokeRect(this.x, this.y, this.width, this.height);
       //     }
       //   }
       //   const hinhChuNhat = new Rectangle(10, 10, 200, 100, "#000000");
-      //   hinhChuNhat.render();
+      //   const c = document.getElementById("myCanvas");
+      //   hinhChuNhat.render(canvas);
     </script>
   </body>
 </html>
